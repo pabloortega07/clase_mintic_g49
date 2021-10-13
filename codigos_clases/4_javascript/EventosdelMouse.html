@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--/**
+ * 21 septiembre 2021
+ * @author Diego Iván Oliveros Acosta
+ * www.scalapp.co
+ */-->
+<!-- 4. Algunos tipos de eventos -->
+<html>
+
+    <head>
+        <script src="js/Eventos.js"></script>
+    </head>
+
+    <body >   <!-- Puedo evitar que pase? onmousedown="queElemento(event)"-->
+
+        <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">Pasar el mouse sobre este texto</h1>
+
+            <p onmousedown="myFunction2(this, '40px')" onmouseup="myFunction(this,'green')">
+                Click en el texto para cambiar el color. Una función con parámetros, se activa cunado se presiona el boton del
+                mouse y se desactiva
+                cuando se suelta el botón del mouse nuevamente.
+            </p>
+
+            <p>Haga click sobre un lugar o elemento del documento.
+                Un cuadro de alerta le indicará con qué elemento está interactuando.
+            </p>
+            
+                <h3>Esto es un encabezado</h3>
+                <img border="0" src="/Imagenes/retolaberinto.jpg" alt="Smiley" width="600" height="400" onmousemove="Coordenadas(event)">
+                <h4>Esto es el tercer párrafo.</h4>
+            <p id="párrafofinal"></p>
+    
+
+            <div id="coordiv" style="width:199px;height:99px;border:10px solid" onmousemove="Coordenadas(event)"
+            onmouseout="clearCoor()"></div>
+
+            <p>Pase el mouse sobre el rectángulo de arriba y obtendrá las coordenadas del puntero del mouse.
+                Es importante desabilitar otras funciones. 
+            </p>
+
+        <p id="párrafofinal"></p>
+
+    </body>
+
+</html>

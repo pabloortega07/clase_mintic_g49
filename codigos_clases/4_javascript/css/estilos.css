@@ -1,0 +1,58 @@
+.button1{
+    background-color: rgb(42, 190, 190);
+    color: rgb(29, 24, 24);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.button2{
+    background-color: rgb(79, 71, 148);
+    color: rgb(223, 193, 193);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.button3{
+    background-color: rgb(42, 190, 42);
+    color: rgb(29, 24, 24);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.button4{
+    background-color: rgb(175, 190, 42);
+    color: rgb(29, 24, 24);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.button5{
+    background-color: rgb(230, 27, 203);
+    color: rgb(29, 24, 24);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.button6{
+    background-color: rgb(151, 102, 143);
+    color: rgb(29, 24, 24);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.titulo{
+    /*background-color: rgb(151, 102, 143);*/
+    color: rgb(170, 27, 27);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.parrafo{
+    color: rgb(170, 27, 27);
+    padding: 15px 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
