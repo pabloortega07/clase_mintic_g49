@@ -1,9 +1,12 @@
+//import Footer from "components/Footer";
+//import Header from "components/Header";
+//import Layout from "layouts/Layout";
+
 function RhodesianInfoPage(){
 return (
-
-        <div>
-            Esta es la pagina de rhodesian
-        </div>
+    
+        <div>Informacion sobre el rhodesian</div>
+        
 );
 
 }

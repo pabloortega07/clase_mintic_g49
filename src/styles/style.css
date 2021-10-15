@@ -8,6 +8,16 @@ ul {
   margin: 0px;
 }
 
+.maincContainer {
+  display: flex;
+  flex-direction: column ;
+  height: 100vh;
+}
+
+.maincContainer > main{
+  height: 100%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
