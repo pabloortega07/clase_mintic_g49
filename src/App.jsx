@@ -1,11 +1,11 @@
-import logo from './media/logo.png';
-import CardRazasPerros from './components/CardRazasPerros';
-import './styles/style.css';
-import bordercollie from './media/borderCollie.jpg';
-import rhodesian from './media/rhodesian.jpg';
-import husky from './media/husky.jpg';
-import pitbull from './media/pitbull.jpg';
-import pastor from './media/pastor.jpg';
+import logo from 'media/logo.png';
+import CardRazasPerros from 'components/CardRazasPerros';
+import 'styles/style.css';
+import bordercollie from 'media/borderCollie.jpg';
+import rhodesian from 'media/rhodesian.jpg';
+import husky from 'media/husky.jpg';
+import pitbull from 'media/pitbull.jpg';
+import pastor from 'media/pastor.jpg';
 
 function App() {
   return (
