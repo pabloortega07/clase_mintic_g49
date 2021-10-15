@@ -8,14 +8,21 @@ ul {
   margin: 0px;
 }
 
-.maincContainer {
+.mainContainer {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   height: 100vh;
+  overflow-y: hidden;
 }
 
-.maincContainer > main{
+.mainContainer > main {
   height: 100%;
+  overflow-y: scroll;
+}
+
+.mainContainer > footer {
+  background-color: red;
+  padding: 10px;
 }
 
 .navbar {

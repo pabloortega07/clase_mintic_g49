@@ -8,7 +8,7 @@ import {
   Route,  
 } from "react-router-dom";
 import Layout from 'layouts/Layout';
-import BordercollieInfoPage from 'pages/bordercollie';
+
 
 
 
